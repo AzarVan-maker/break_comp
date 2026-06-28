@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Строительная компания «Строй Мастер»</title>
+  <meta name="description" content="Профессиональное строительство и ремонт домов, квартир и коммерческих объектов по доступным ценам." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">Строй Мастер</a>
+      <button class="nav-toggle" aria-label="Открыть меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="#services">Услуги</a>
+        <a href="#projects">Проекты</a>
+        <a href="#about">О компании</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Надежное строительство</p>
+          <h1>Строим дома и коммерческие объекты с гарантией качества</h1>
+          <p>Мы выполняем полный цикл строительных работ: от проекта до сдачи под ключ. Опыт, честные сроки и прозрачный расчет.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Заказать расчет</a>
+            <a class="btn btn-secondary" href="#projects">Наши работы</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="hero-card">
+            <p>Объект за 180 дней</p>
+            <strong>Коттедж в Подмосковье</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Услуги</p>
+          <h2>Комплексный подход к каждому проекту</h2>
+        </div>
+        <div class="cards-grid">
+          <article class="card card--blue">
+            <h3>Строительство домов</h3>
+            <p>Монолитные, каркасные и кирпичные дома с индивидуальным планированием и инженерией.</p>
+          </article>
+          <article class="card card--green">
+            <h3>Ремонт и отделка</h3>
+            <p>Капитальный ремонт квартир, отделочные работы и комплексные дизайнерские решения.</p>
+          </article>
+          <article class="card card--amber">
+            <h3>Коммерческие объекты</h3>
+            <p>Строительство и реконструкция офисов, складов, магазинов и производственных площадей.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Проекты</p>
+          <h2>Реализованные объекты</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <img class="project-thumb" src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80" alt="Коттедж под ключ" />
+            <h3>Коттедж под ключ</h3>
+            <p>Уютный деревянный дом с бассейном и дизайнерской отделкой.</p>
+          </article>
+          <article class="project-card">
+            <img class="project-thumb" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80" alt="Офисный центр" />
+            <h3>Офисный центр</h3>
+            <p>Реконструкция офисного пространства с современным инженерным оснащением.</p>
+          </article>
+          <article class="project-card">
+            <img class="project-thumb" src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=80" alt="Магазин" />
+            <h3>Магазин</h3>
+            <p>Коммерческий ремонт и дизайн-проект торгового зала.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-alt">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">О компании</p>
+          <h2>20 лет опыта в строительстве и ремонте</h2>
+          <p>Наши специалисты работают по проверенным технологиям с полным вниманием к срокам и качеству. Мы берем ответственность на каждом этапе, чтобы клиент получил готовый объект без лишних хлопот.</p>
+          <ul class="feature-list">
+            <li>Прозрачные сметы</li>
+            <li>Соблюдение сроков</li>
+            <li>Гарантии на работы</li>
+          </ul>
+        </div>
+        <div class="stats-card">
+          <div>
+            <strong class="stat-value stat-value--blue">128+</strong>
+            <span class="stat-label">Завершенных объектов за год</span>
+          </div>
+          <div>
+            <strong class="stat-value stat-value--green">95%</strong>
+            <span class="stat-label">Повторных клиентов</span>
+          </div>
+          <div>
+            <strong class="stat-value stat-value--amber">10 лет</strong>
+            <span class="stat-label">Средний стаж бригад</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">Контакты</p>
+          <h2>Давайте обсудим ваш проект</h2>
+          <p>Оставьте заявку, и мы подготовим бесплатный расчет стоимости в течение одного рабочего дня.</p>
+          <div class="contact-details">
+            <p><strong>Телефон:</strong> +7 (900) 123-45-67</p>
+            <p><strong>Email:</strong> info@stroymaster.ru</p>
+            <p><strong>Адрес:</strong> Москва, ул. Строителей, 12</p>
+          </div>
+        </div>
+        <form class="contact-form">
+          <label>Имя <input type="text" placeholder="Ваше имя" required /></label>
+          <label>Телефон <input type="tel" placeholder="Ваш телефон" required /></label>
+          <label>Комментарий <textarea rows="4" placeholder="Опишите проект"></textarea></label>
+          <button class="btn btn-primary" type="submit">Отправить заявку</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Строительная компания «Строй Мастер». Все права защищены.</p>
+      <p>Разработка сайта — внутренний макет для компании.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
